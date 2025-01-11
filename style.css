@@ -86,10 +86,12 @@
     z-index: 1;
     left: -60px;
     top: -30px;
-    width: 160.83px;
-height: 163.76px;
-
-
+    animation-name: anim;
+    animation: 1s infinite anim;
+}
+@keyframes anim{
+  0%{transform: rotateZ(0);}
+  100%{transform: rotateZ(720deg);}
 
 }
 .section{
